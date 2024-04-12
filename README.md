@@ -103,7 +103,7 @@ YumYard is an app designed to help users organize and plan their meals efficient
 
 ## 2. Wireframes
 
-<img src='wireframe.jpg'>
+<img src='iOS102-Wireframe.jpg'>
 
 ### [BONUS] Digital Wireframes & Mockups
 
