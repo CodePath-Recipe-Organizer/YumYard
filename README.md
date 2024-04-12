@@ -4,7 +4,20 @@ Original App Design Project - README Template
 # YumYard
 
 ## Table of Contents
-[TOC]
+- [1. Product Spec](#1-product-spec)
+  * [1.1 App Overview](#11-app-overview)
+  * [1.1.1 Description](#111-description)
+  * [1.1.2 App Evaluation](#112-app-evaluation)
+  * [1.2 App Spec](#12-app-spec)
+  * [1.2.1. User Features (Required and Optional)](#121-user-features)
+  * [1.2.2. Screen Archetypes](#122-screen-archetypes)
+  * [1.2.3. Navigation Flow](#123-navigation-flow)
+- [2. Wireframes](#2-wireframes)
+  * [[BONUS] Digital Wireframes & Mockups](#-bonus--digital-wireframes---mockups)
+  * [[BONUS] Interactive Prototype](#-bonus--interactive-prototype)
+- [3. Schema](#3-schema)
+  * [Models](#models)
+  * [Networking](#networking)
 
 ## 1. Product-Spec
 ### 1.1 App-Overview
@@ -25,7 +38,7 @@ YumYard is an app designed to help users organize and plan their meals efficient
 
 ### 1.2 App Spec
 
-### 1.2.1. User Features (Required and Optional)
+### 1.2.1. User Features
 
 **Required Must-have Features**
 
