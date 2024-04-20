@@ -148,26 +148,38 @@ YumYard is an app designed to help users organize and plan their meals efficient
 - [x] Formulate the app name, design logo, and craft a tagline
 
 **Sprint 2: Implement Welcome Screen**
+- [x] Develop Welcome/Sign Up/Login Screen
+- [x] Implement account creation and sign-in functionality
 
-- [x] Develop a Welcome Screen, facilitating account creation and sign-in
-- [ ] Set up the Tab Bar Navigation for user interaction
+**Sprint 3: Recipe Screen**
+- [ ] Create Tab and Flow Navigations
+- [ ] Create Recipe Screen layout
+- [ ] Retrieve and display recipe information from API database
+- [ ] Implement functionality to view detailed recipe information
+- [ ] Add option to add recipes to Favorites list
+- [ ] Enable adding ingredients to Shopping List from Recipe Screen
 
-**Sprint 3: Implement Recipes Screen and Favorites Sreen**
+**Sprint 4: Favorites Screen**
+- [ ] Design layout for Favorites Screen
+- [ ] Implement display of saved recipes
+- [ ] Add functionality to create meal plan using saved recipes
+- [ ] Integrate navigation from Recipe Screen to Favorites Screen
+- [ ] Develop layout for Shopping List Screen
+- [ ] Implement checklist feature for needed ingredients
+- [ ] Enable creation of checklist based on saved or favorite recipes
+- [ ] Test and debug Shopping List functionality
 
-- [ ] Implement the Account Screen, providing users with centralized access to review and edit saved information
-- [x] Fine-tune the overall user interface and experience for a cohesive and visually appealing design
-- [x] Conduct comprehensive testing to identify and address any bugs or issues
-- [x] Prepare for Demo Day
+**Sprint 5: Meal Plan Screen**
+- [ ] Create Meal Plan Screen interface
+- [ ] Implement calendar interface for planning meals
+- [ ] Enable users to view and edit planned meals for specific days
+- [ ] Test navigation from other screens to Meal Plan Screen
+
+
       
 
-### Step 3: Implement Meal Plan Screen
 
-- [x] Week 8: Complete Sprint 1&2
-- [ ] Week 9: Work on Sprint 3
-- [ ] Week 10: Complete Sprint 3 and consider adding other features
-
-
-## Unit 8: Assignment
+## Unit 8: Assignment 
 ## Video Walkthrough
 
 
