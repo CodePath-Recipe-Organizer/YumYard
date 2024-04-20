@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct SignUpView: View {
+    
+    @Environment(AuthManager.self) var authManager
+    
     @State private var name: String = ""
     @State private var email: String = ""
     @State private var username: String = ""
@@ -20,13 +23,16 @@ struct SignUpView: View {
                     .font(.system(size: 50))
                     .foregroundStyle(Color.green)
                 
-                CustomTextField(placeHolder: "Full Name", bColor: Color.gray, tOpacity: 0.6, value: name)
-                CustomTextField(placeHolder: "Email", bColor: Color.gray, tOpacity: 0.6, value: email)
-                CustomTextField(placeHolder: "Username", bColor: Color.gray, tOpacity: 0.6, value: username)
-                CustomTextField(placeHolder: "Password", bColor: Color.gray, tOpacity: 0.6, value: password)
+                CustomTextField(placeHolder: "Full Name", bColor: Color.gray, tOpacity: 0.6, value: $name)
+                CustomTextField(placeHolder: "Email", bColor: Color.gray, tOpacity: 0.6, value: $email)
+                CustomTextField(placeHolder: "Username", bColor: Color.gray, tOpacity: 0.6, value: $username)
+                CustomTextField(placeHolder: "Password", bColor: Color.gray, tOpacity: 0.6, value: $password)
                     .padding(.bottom)
                 
-                Text("Sign up")
+                Button("Sign up") {
+                    print("Sign up user: \(email), \(password)")
+                    authManager.signUp(email: email, password: password)
+                }
                     .fontWeight(.bold)
                     .font(.system(size: 25))
                     .foregroundStyle(Color.white)
@@ -60,13 +66,14 @@ struct SignUpView: View {
 
 #Preview {
     SignUpView()
+            .environment(AuthManager())
 }
 
 struct CustomTextField: View {
     var placeHolder: String
     var bColor: Color
     var tOpacity: Double
-    @State var value: String
+    @Binding var value: String
     
     var body: some View {
         HStack {

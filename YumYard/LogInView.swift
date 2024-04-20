@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct LogInView: View {
-    @State private var isAuthenticated = false
-    @State private var username: String = ""
+    
+    @Environment(AuthManager.self) var authManager
+    
+    @State private var email: String = ""
     @State private var password: String = ""
     var body: some View {
         NavigationStack {
@@ -19,12 +21,29 @@ struct LogInView: View {
                     .font(.system(size: 50))
                     .foregroundStyle(Color.green)
                 
-                TextEnter(displayText: "Username", typeText: username)
-                TextEnter(displayText: "Password", typeText: password)
+                TextField("Email Address", text: $email)
+                    .padding()
+                    .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+                    .background(Color.white)
+                    .clipShape(RoundedRectangle(cornerRadius: 50))
+                    .shadow(color: Color.black.opacity(0.08), radius: 60, y: 16)
+                SecureField("Password", text: $password)
+                    .padding()
+                    .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+                    .background(Color.white)
+                    .clipShape(RoundedRectangle(cornerRadius: 50))
+                    .shadow(color: Color.black.opacity(0.08), radius: 60, y: 16)
+                
                     .padding(.bottom)
                 
                 Button("Log in") {
+                    print("Login user: \(email), \(password)")
                     
+                    authManager.signIn(email: email, password: password)
+                    
+                    if authManager.user != nil {
+                        print("Hello")
+                    }
                 }
                     .fontWeight(.bold)
                     .font(.system(size: 25))
@@ -52,28 +71,8 @@ struct LogInView: View {
 
 #Preview {
     LogInView()
+            .environment(AuthManager())
 }
 
-struct TextEnter: View {
-    var displayText: String
-    @State var typeText: String = ""
-    var body: some View {
-        if displayText == "Password" {
-            SecureField(displayText, text: $typeText)
-                .padding()
-                .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
-                .background(Color.white)
-                .clipShape(RoundedRectangle(cornerRadius: 50))
-                .shadow(color: Color.black.opacity(0.08), radius: 60, y: 16)
-        } else {
-            TextField(displayText, text: $typeText)
-                .padding()
-                .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
-                .background(Color.white)
-                .clipShape(RoundedRectangle(cornerRadius: 50))
-                .shadow(color: Color.black.opacity(0.08), radius: 60, y: 16)
-        }
-    }
-}
 
 
