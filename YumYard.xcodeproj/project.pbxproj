@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044F10F82BD42151000446E1 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F10F72BD42151000446E1 /* TabBar.swift */; };
+		044F10FC2BD425AA000446E1 /* PlansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F10FB2BD425AA000446E1 /* PlansView.swift */; };
+		044F10FE2BD425B7000446E1 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F10FD2BD425B7000446E1 /* AccountView.swift */; };
+		044F11002BD42638000446E1 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F10FF2BD42638000446E1 /* FavoritesView.swift */; };
+		048DC5BE2BD420E000C2B8BB /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DC5BD2BD420E000C2B8BB /* RecipeView.swift */; };
 		D727BDDA2BD2D9240011E324 /* YumYardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727BDD92BD2D9240011E324 /* YumYardApp.swift */; };
 		D727BDDC2BD2D9240011E324 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727BDDB2BD2D9240011E324 /* ContentView.swift */; };
 		D727BDDE2BD2D9250011E324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D727BDDD2BD2D9250011E324 /* Assets.xcassets */; };
@@ -22,6 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044F10F72BD42151000446E1 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		044F10FB2BD425AA000446E1 /* PlansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansView.swift; sourceTree = "<group>"; };
+		044F10FD2BD425B7000446E1 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		044F10FF2BD42638000446E1 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		048DC5BD2BD420E000C2B8BB /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 		D727BDD62BD2D9240011E324 /* YumYard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YumYard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D727BDD92BD2D9240011E324 /* YumYardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumYardApp.swift; sourceTree = "<group>"; };
 		D727BDDB2BD2D9240011E324 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,8 +85,13 @@
 				D727BDDD2BD2D9250011E324 /* Assets.xcassets */,
 				D727BDDF2BD2D9250011E324 /* Preview Content */,
 				D727BDE92BD2E0BD0011E324 /* LogInView.swift */,
+				044F10FF2BD42638000446E1 /* FavoritesView.swift */,
 				D727BDE72BD2E0AE0011E324 /* SignUpView.swift */,
 				D7EA93112BD33B510075BAE5 /* AuthManager.swift */,
+				048DC5BD2BD420E000C2B8BB /* RecipeView.swift */,
+				044F10FB2BD425AA000446E1 /* PlansView.swift */,
+				044F10FD2BD425B7000446E1 /* AccountView.swift */,
+				044F10F72BD42151000446E1 /* TabBar.swift */,
 			);
 			path = YumYard;
 			sourceTree = "<group>";
@@ -176,10 +191,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044F11002BD42638000446E1 /* FavoritesView.swift in Sources */,
 				D7EA92FD2BD301380075BAE5 /* WelcomeView.swift in Sources */,
 				D7EA93122BD33B510075BAE5 /* AuthManager.swift in Sources */,
 				D727BDDC2BD2D9240011E324 /* ContentView.swift in Sources */,
+				044F10FE2BD425B7000446E1 /* AccountView.swift in Sources */,
+				044F10F82BD42151000446E1 /* TabBar.swift in Sources */,
+				048DC5BE2BD420E000C2B8BB /* RecipeView.swift in Sources */,
 				D727BDE82BD2E0AE0011E324 /* SignUpView.swift in Sources */,
+				044F10FC2BD425AA000446E1 /* PlansView.swift in Sources */,
 				D727BDEA2BD2E0BD0011E324 /* LogInView.swift in Sources */,
 				D727BDDA2BD2D9240011E324 /* YumYardApp.swift in Sources */,
 			);
