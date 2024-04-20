@@ -176,10 +176,8 @@ YumYard is an app designed to help users organize and plan their meals efficient
 - [ ] Test navigation from other screens to Meal Plan Screen
 
 
-      
-
-
-## Unit 8: Assignment 
+# Unit 8: Assignment 
 ## Video Walkthrough
+<img src='project-walkthrough.gif'>
 
 
