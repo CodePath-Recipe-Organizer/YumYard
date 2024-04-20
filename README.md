@@ -130,3 +130,44 @@ YumYard is an app designed to help users organize and plan their meals efficient
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+
+
+### Step 1: Identify Main Features
+* Welcome Screen
+* Recipes Screen
+* Favorites Screen
+* Meal Plan Screen
+
+### Step 2: Breakdown into Sprints
+
+**Sprint 1: App Conceptualization and Initial Design**
+
+- [x] Define app concept, functionalities, and requirements
+- [x] Create a comprehensive wireframe of the app and establish the project structure
+- [x] Formulate the app name, design logo, and craft a tagline
+
+**Sprint 2: Implement Welcome Screen**
+
+- [x] Develop a Welcome Screen, facilitating account creation and sign-in
+- [ ] Set up the Tab Bar Navigation for user interaction
+
+**Sprint 3: Implement Recipes Screen and Favorites Sreen**
+
+- [ ] Implement the Account Screen, providing users with centralized access to review and edit saved information
+- [x] Fine-tune the overall user interface and experience for a cohesive and visually appealing design
+- [x] Conduct comprehensive testing to identify and address any bugs or issues
+- [x] Prepare for Demo Day
+      
+
+### Step 3: Implement Meal Plan Screen
+
+- [x] Week 8: Complete Sprint 1&2
+- [ ] Week 9: Work on Sprint 3
+- [ ] Week 10: Complete Sprint 3 and consider adding other features
+
+
+## Unit 8: Assignment
+## Video Walkthrough
+
+
