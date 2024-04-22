@@ -44,9 +44,8 @@ struct YumYardApp: App {
         @Environment(AuthManager.self) var authManager
 
         var body: some View {
-            Text("Welcome, \(authManager.user?.email ?? "Guest")!")
-            Button("Sign Out") {
-                authManager.signOut()
-            }
+                TabBar()//            Button("Sign Out") {
+//                authManager.signOut()
+//            }
         }
     }

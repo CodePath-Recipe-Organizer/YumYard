@@ -14,6 +14,7 @@ struct Recipe: Codable, Identifiable {
     var ingredients: String // Change the data type to String
     var servings: String
     var instructions: String
+    var isLiked: Bool = false
     
     // Custom initializer to conform to Decodable
     init(from decoder: Decoder) throws {
@@ -32,4 +33,3 @@ struct Recipe: Codable, Identifiable {
         case instructions
     }
 }
-
