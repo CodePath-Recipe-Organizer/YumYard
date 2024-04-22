@@ -13,6 +13,9 @@
 		044F11002BD42638000446E1 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F10FF2BD42638000446E1 /* FavoritesView.swift */; };
 		044F11242BD48161000446E1 /* RecipeBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F11232BD48161000446E1 /* RecipeBuild.swift */; };
 		044F11262BD48173000446E1 /* Recipe API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F11252BD48173000446E1 /* Recipe API.swift */; };
+		04558A262BD71067001B2AD4 /* Firestore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04558A252BD71067001B2AD4 /* Firestore.swift */; };
+		04558A282BD714FA001B2AD4 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = 04558A272BD714FA001B2AD4 /* GoogleService-Info (2).plist */; };
+		0489D0BF2BD705C60082CEE4 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489D0BE2BD705C60082CEE4 /* Favorites.swift */; };
 		048DC5BE2BD420E000C2B8BB /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DC5BD2BD420E000C2B8BB /* RecipeView.swift */; };
 		D727BDDA2BD2D9240011E324 /* YumYardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727BDD92BD2D9240011E324 /* YumYardApp.swift */; };
 		D727BDDC2BD2D9240011E324 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727BDDB2BD2D9240011E324 /* ContentView.swift */; };
@@ -35,6 +38,9 @@
 		044F10FF2BD42638000446E1 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		044F11232BD48161000446E1 /* RecipeBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeBuild.swift; sourceTree = "<group>"; };
 		044F11252BD48173000446E1 /* Recipe API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe API.swift"; sourceTree = "<group>"; };
+		04558A252BD71067001B2AD4 /* Firestore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firestore.swift; sourceTree = "<group>"; };
+		04558A272BD714FA001B2AD4 /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (2).plist"; sourceTree = "<group>"; };
+		0489D0BE2BD705C60082CEE4 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 		048DC5BD2BD420E000C2B8BB /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 		D727BDD62BD2D9240011E324 /* YumYard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YumYard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D727BDD92BD2D9240011E324 /* YumYardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumYardApp.swift; sourceTree = "<group>"; };
@@ -66,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				D7EA93072BD3385B0075BAE5 /* GoogleService-Info.plist */,
+				04558A272BD714FA001B2AD4 /* GoogleService-Info (2).plist */,
 				D727BDD82BD2D9240011E324 /* YumYard */,
 				D727BDD72BD2D9240011E324 /* Products */,
 				D7EA930A2BD339380075BAE5 /* Frameworks */,
@@ -93,7 +100,9 @@
 				D727BDE72BD2E0AE0011E324 /* SignUpView.swift */,
 				D7EA93112BD33B510075BAE5 /* AuthManager.swift */,
 				048DC5BD2BD420E000C2B8BB /* RecipeView.swift */,
+				0489D0BE2BD705C60082CEE4 /* Favorites.swift */,
 				044F11252BD48173000446E1 /* Recipe API.swift */,
+				04558A252BD71067001B2AD4 /* Firestore.swift */,
 				044F11232BD48161000446E1 /* RecipeBuild.swift */,
 				044F10FB2BD425AA000446E1 /* PlansView.swift */,
 				044F10FD2BD425B7000446E1 /* AccountView.swift */,
@@ -184,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04558A282BD714FA001B2AD4 /* GoogleService-Info (2).plist in Resources */,
 				D727BDE12BD2D9250011E324 /* Preview Assets.xcassets in Resources */,
 				D7EA93082BD3385B0075BAE5 /* GoogleService-Info.plist in Resources */,
 				D727BDDE2BD2D9250011E324 /* Assets.xcassets in Resources */,
@@ -208,8 +218,10 @@
 				048DC5BE2BD420E000C2B8BB /* RecipeView.swift in Sources */,
 				D727BDE82BD2E0AE0011E324 /* SignUpView.swift in Sources */,
 				044F10FC2BD425AA000446E1 /* PlansView.swift in Sources */,
+				0489D0BF2BD705C60082CEE4 /* Favorites.swift in Sources */,
 				D727BDEA2BD2E0BD0011E324 /* LogInView.swift in Sources */,
 				D727BDDA2BD2D9240011E324 /* YumYardApp.swift in Sources */,
+				04558A262BD71067001B2AD4 /* Firestore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
