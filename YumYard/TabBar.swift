@@ -10,7 +10,6 @@ import SwiftUI
 struct TabBar: View {
     var body: some View {
         TabView {
-            
             NavigationView {
                 RecipeView()
             }
@@ -18,6 +17,7 @@ struct TabBar: View {
                     Image(systemName: "carrot.fill")
                     Text("Recipes")
                 }
+
          
             NavigationView {
                 FavoritesView()

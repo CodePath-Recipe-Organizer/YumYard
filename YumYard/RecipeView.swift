@@ -6,15 +6,32 @@
 //
 
 import SwiftUI
-
 struct RecipeView: View {
+    @State var foods = [Recipe]()
+
     var body: some View {
-        Text("Hello, Recipe!")
-        
+            List(foods) { food in
+                VStack(alignment: .leading) {
+                    Text(food.title)
+                        .font(.title)
+                        .fontWeight(.bold)
+                    Text("\(food.ingredients)")
+                        .font(.subheadline)
+                        .fontWeight(.bold)
+                    Text("\(food.servings)")
+                        .font(.body)
+                }
+            }
+            .onAppear() {
+                apiCall().getRecipe { (foods) in
+                    self.foods = foods
+                }
+            }
     }
-    
 }
 
-#Preview {
-    RecipeView()
+struct RecipeView_Previews: PreviewProvider {
+    static var previews: some View {
+        RecipeView()
+    }
 }
