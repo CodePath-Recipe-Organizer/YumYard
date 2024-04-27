@@ -178,6 +178,6 @@ YumYard is an app designed to help users organize and plan their meals efficient
 
 # Unit 8: Assignment 
 ## Video Walkthrough
-<img src='project-walkthrough 2.gif'>
+![](https://github.com/CodePath-Recipe-Organizer/YumYard/blob/main/project%20walkthrough%202.gif)
 
 
