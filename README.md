@@ -160,7 +160,7 @@ YumYard is an app designed to help users organize and plan their meals efficient
 - [ ] Enable adding ingredients to Shopping List from Recipe Screen
 
 **Sprint 4: Favorites Screen**
-- [ ] Design layout for Favorites Screen
+- [x] Design layout for Favorites Screen
 - [ ] Implement display of saved recipes
 - [ ] Add functionality to create meal plan using saved recipes
 - [ ] Integrate navigation from Recipe Screen to Favorites Screen
@@ -170,7 +170,7 @@ YumYard is an app designed to help users organize and plan their meals efficient
 - [ ] Test and debug Shopping List functionality
 
 **Sprint 5: Meal Plan Screen**
-- [ ] Create Meal Plan Screen interface
+- [x] Create Meal Plan Screen interface
 - [ ] Implement calendar interface for planning meals
 - [ ] Enable users to view and edit planned meals for specific days
 - [ ] Test navigation from other screens to Meal Plan Screen
