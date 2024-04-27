@@ -57,11 +57,11 @@ YumYard is an app designed to help users organize and plan their meals efficient
 
 ### 1.2.2. Screen Archetypes
 
-- [ ] Welcome/Sign Up/Login Screen
+- [X] Welcome/Sign Up/Login Screen
 * User can create a new account or sign in
-- [ ] Recipe screen
+- [X] Recipe screen
 * User can view detailed information about various recipes (from an API database)
-- [ ] Favorites screen
+- [X] Favorites screen
 * User can see a list of saved recipes 
 - [ ] Shopping List Screen
 * User can create a checklist of what is needed based on saved or favorite recipes
@@ -73,21 +73,21 @@ YumYard is an app designed to help users organize and plan their meals efficient
 **Tab Navigation** (Tab to Screen)
 
 
-- [ ] Recipes
-- [ ] Favorites
+- [X] Recipes
+- [X] Favorites
 - [ ] Shopping List
-- [ ] Meal Plan
+- [X] Meal Plan
 
 
 
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] Welcome Screen
+- [X] Welcome Screen
   * User can either create a new account or sign in
       * If signing in, leads to a screen prompting the user to enter their email and password
       * If creating a new account, guides the user to a screen to input relevant information
-- [ ] Recipes Screen
+- [X] Recipes Screen
   * User can view image and name of all available recipes
       * When a recipe is tapped, user is led to a detail screen and can view more information of the specific recipe
           * User has the option to add recipe to Favorites list 
@@ -155,8 +155,8 @@ YumYard is an app designed to help users organize and plan their meals efficient
 - [x] Create Tab and Flow Navigations
 - [x] Create Recipe Screen layout
 - [x] Retrieve and display recipe information from API database
-- [ ] Implement functionality to view detailed recipe information
-- [ ] Add option to add recipes to Favorites list
+- [X] Implement functionality to view detailed recipe information
+- [X] Add option to add recipes to Favorites list
 - [ ] Enable adding ingredients to Shopping List from Recipe Screen
 
 **Sprint 4: Favorites Screen**
