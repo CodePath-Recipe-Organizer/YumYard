@@ -152,9 +152,9 @@ YumYard is an app designed to help users organize and plan their meals efficient
 - [x] Implement account creation and sign-in functionality
 
 **Sprint 3: Recipe Screen**
-- [ ] Create Tab and Flow Navigations
-- [ ] Create Recipe Screen layout
-- [ ] Retrieve and display recipe information from API database
+- [x] Create Tab and Flow Navigations
+- [x] Create Recipe Screen layout
+- [x] Retrieve and display recipe information from API database
 - [ ] Implement functionality to view detailed recipe information
 - [ ] Add option to add recipes to Favorites list
 - [ ] Enable adding ingredients to Shopping List from Recipe Screen
